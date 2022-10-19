@@ -6,7 +6,8 @@ Feature: User creates a UTest account
     Given that LuisVallejo is on the UTest Home page
     When he enters all required registration fields
     | firstName | lastName | email                    | birthMonth | birthDay | birthYear | postalCode | password   | confirmPassword |
-    | Luis    | Vallejo   | luisf.vallejo2710@gmail.com   | March      | 5        | 1979      | 66000     | *FXjA#NykRKQdZ8k | *FXjA#NykRKQdZ8k      |
+    | Luis    | Vallejo   | luisf.vallejo@hotmail.com   | March      | 5        | 1979      | 66000     | *FXjA#NykRKQdZ8k | *FXjA#NykRKQdZ8k      |
     Then a UTest account is created
     | textRegisterSuccess                   |
     | First, please check your email inbox  |
+
